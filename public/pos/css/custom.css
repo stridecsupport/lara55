@@ -1,0 +1,235 @@
+@charset "UTF-8";
+/* CSS Document */
+.pos-panel-left{
+    padding: 0px;
+}
+.input-group-addon {
+    padding: 10px 12px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1;
+    color: #555;
+    text-align: center;
+    background-color: #eee;
+    border: 1px solid #ccc;
+        border-left-width: 1px;
+        border-left-style: solid;
+        border-left-color: rgb(204, 204, 204);
+    border-radius: 2px;
+}
+.pos-items-container {
+    height: 320px;
+    border: 1px solid #CCC;
+    overflow-y: scroll;
+    font-size: 14px;
+    background: #fff;
+}
+.pos-items-container table tr td {
+    padding: 11px 8px;
+}
+.highlighted {
+    background-color: rgb(217, 217, 226);
+}
+.nospaces{
+	padding:0px;
+}
+.maring-off{margin-left: 0;margin-right: 0;}
+.l-maring-off{margin-left: 0;}
+.r-maring-off{margin-right: 0;}
+.l-nospaces {padding-right: 0;}
+.r-nospaces {padding-left: 0;}
+.pos-items-container {
+    height: 320px;
+    border: 1px solid #CCC;
+    overflow-y: scroll;
+    font-size: 14px;
+    background: #fff;
+}
+.pos-totals table tr td {
+    font-size: 16px;
+    padding: 5px;
+    border-bottom: 1px dashed #aaa;
+}
+.pos-totals table tr:last-child td {
+    font-weight: bold;
+    font-size: 20px;
+    border-bottom: 2px solid #999;
+}
+.pos-quickadd-products ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #3276b1;
+    border-color: #2c699d;
+}
+.pos-quickadd-products ul li button {
+    display: inline;
+    float: left;
+    width: 25%;
+    height: 70px;
+}
+
+.pro-items {
+    height: 350px;
+    overflow: hidden;
+    display: none;
+}
+.bg-color-blue {
+    background-color: #57889c !important;
+}
+.txt-color-white {
+    color: #fff !important;
+}
+.pos-quickadd-products .pos-products-page-select {
+    color: #FFF;
+    text-align: center;
+}
+.cuspro {
+    height: 108px;
+    white-space: -moz-pre-wrap;
+    white-space: pre-wrap;
+}
+.btn-warning.active, .btn-warning.focus, .btn-warning:active, .btn-warning:focus, .btn-warning:hover, .open > .dropdown-toggle.btn-warning {
+    color: #fff;
+    background-color: #9b711a;
+    border-color: #7d5b15;
+}
+.nospaces .btn {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.fa-home::before {
+    content: "\f015";
+}
+.fa-caret-up::before {
+    content: "\f0d8";
+}
+.fa-caret-down::before {
+    content: "\f0d7";
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+        font-size: 14px;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.btn-lg, .btn-group-lg > .btn {
+    padding: 10px 16px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 0px;
+}
+.keypad-size-item {
+    width: 370px;
+}
+.keypad-inline {
+    border: none;
+}
+.keypad-inline, .keypad-key, .keypad-special {
+    border: 1px solid #ddd;
+    font-size: 27px;
+    font-family: "Open Sans",Arial,Helvetica,sans-serif !important;
+    font-weight: 500 !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    color: #000;
+    margin-right: 6px;
+    background-color: #eee !important;
+    line-height: 22px !important;
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(#f2f2f2),to(#fafafa));
+    background-image: -webkit-linear-gradient(top,#f2f2f2 0,#fafafa 100%);
+    background-image: -moz-linear-gradient(top,#f2f2f2 0,#fafafa 100%);
+    background-image: -ms-linear-gradient(top,#f2f2f2 0,#fafafa 100%);
+    background-image: -o-linear-gradient(top,#f2f2f2 0,#fafafa 100%);
+    background-image: -linear-gradient(top,#f2f2f2 0,#fafafa 100%);
+}
+.keypad-row {
+    background-color: #f9f8f8 !important;
+}
+.keypad-row {
+    width: 100%;
+}
+.keypad-key {
+    margin: 5px !important;
+    font-weight: 500;
+    line-height: 22px !important;
+    padding: 20px 52px 20px 40px !important;
+}
+.keypad-inline, .keypad-key, .keypad-special {
+    border: 1px solid #ddd;
+    font-size: 27px;
+    font-family: "Open Sans",Arial,Helvetica,sans-serif !important;
+    font-weight: 500 !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    color: #000;
+    margin-right: 6px;
+    background-color: #eee !important;
+    line-height: 22px !important;
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(#f2f2f2),to(#fafafa));
+    background-image: -webkit-linear-gradient(top,#f2f2f2 0,#fafafa 100%);
+    background-image: -moz-linear-gradient(top,#f2f2f2 0,#fafafa 100%);
+    background-image: -ms-linear-gradient(top,#f2f2f2 0,#fafafa 100%);
+    background-image: -o-linear-gradient(top,#f2f2f2 0,#fafafa 100%);
+    background-image: -linear-gradient(top,#f2f2f2 0,#fafafa 100%);
+}
+.keypad-popup, .keypad-inline, .keypad-key, .keypad-special {
+    box-shadow: inset 0 -2px 0 rgba(0,0,0,.05);
+    -moz-box-shadow: inset 0 -2px 0 rgba(0,0,0,.05);
+    -webkit-box-shadow: inset 0 -2px 0 rgba(0,0,0,.05);
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border: 1px solid transparent;
+}
+.keypad-clear {
+    padding: 20px 12px 21px 10px;
+    width: 94px;
+    margin-left: 5px;
+    background-color: #6e587a !important;
+    background-image: none;
+    color: #fff;
+}
+.keypad-inline, .keypad-key, .keypad-special {
+    border: 1px solid #ddd;
+    font-size: 27px;
+    font-family: "Open Sans",Arial,Helvetica,sans-serif !important;
+    font-weight: 500 !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    color: #000;
+    margin-right: 6px;
+    background-color: #eee !important;
+    line-height: 22px !important;
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(#f2f2f2),to(#fafafa));
+    background-image: -webkit-linear-gradient(top,#f2f2f2 0,#fafafa 100%);
+    background-image: -moz-linear-gradient(top,#f2f2f2 0,#fafafa 100%);
+    background-image: -ms-linear-gradient(top,#f2f2f2 0,#fafafa 100%);
+    background-image: -o-linear-gradient(top,#f2f2f2 0,#fafafa 100%);
+    background-image: -linear-gradient(top,#f2f2f2 0,#fafafa 100%);
+}
+.red-bg {
+    background-color: #C00 !important;
+}
+.cash-change-message {
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    color: #FFF;
+}
+button.spl {
+    width: 150px;
+    height: 60px;
+    font-size: 22px;
+}
+#payment_modals .modal-dialog {
+    max-width: 36%;
+}

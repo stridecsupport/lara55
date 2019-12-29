@@ -1,0 +1,4 @@
+<?php $content = 'a:4:{s:6:"amount";d:3490;s:8:"currency";s:3:"sgd";s:11:"description";s:61:"GINTHYE ORDER PAYMENT, #000002339, genefied_chang@hotmail.com";s:4:"card";a:11:{s:6:"number";s:16:"5264711012520385";s:9:"exp_month";s:2:"02";s:8:"exp_year";s:4:"2021";s:3:"cvc";s:3:"174";s:4:"name";s:12:"GuanYi Chang";s:13:"address_line1";s:23:"Blk 336 Woodlands Ave 1";s:13:"address_line2";s:0:"";s:12:"address_city";s:8:"Woodland";s:11:"address_zip";s:6:"730336";s:13:"address_state";N;s:15:"address_country";s:2:"SG";}}';
+preg_match("/[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})/i", $content, $matches);
+
+print $matches[0];?>
